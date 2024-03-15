@@ -3,8 +3,7 @@
         <a href="/" class="nav-logo" title="Back to Homepage"> Фамилия имя</a>
         <div class="nav-links">
             {#each nav as link}
-            <a href={link.href} class="link">{link.title}</a>
-                
+                <a href={link.href} class="link">{link.title}</a>
             {/each}
         </div>
     </div>
@@ -37,6 +36,7 @@
         }
     ]
 </script>
+
 <style>
     .container {
         max-width: 1400px;
